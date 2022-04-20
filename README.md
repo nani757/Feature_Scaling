@@ -1,0 +1,2 @@
+# Feature_Scaling
+Feature_Scaling_Normalization_MinMaxScaling_MaxAbsScaling_RobustScaling
