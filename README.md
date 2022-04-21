@@ -43,5 +43,7 @@ Does a robust scaler remove outliers?
 
 By using RobustScaler(), we can remove the outliers and then use either StandardScaler or MinMaxScaler for preprocessing the dataset. It scales features using statistics that are robust to outliers. This method removes the median and scales the data in the range between 1st quartile and 3rd quartile
 {from sklearn.preprocessing import RobustScaler}
+
+
 ![robust scaling](https://user-images.githubusercontent.com/68773015/164389878-bb672b11-cf2f-4934-b4b2-f8a5b080820f.png)
 
