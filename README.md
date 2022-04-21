@@ -12,6 +12,7 @@ Why do we use MIN MAX scaling?
 
 Variables that are measured at different scales do not contribute equally to the model fitting & model learned function and might end up creating a bias. Thus, to deal with this potential problem feature-wise normalization such as MinMax Scaling is usually used prior to model fitting
 {from sklearn.preprocessing import MinMaxScaler}
+![Screenshot 2022-04-21 113310](https://user-images.githubusercontent.com/68773015/164390165-4eff0730-14a5-4cbc-b423-0f20b282e644.png)
 
 
 
@@ -19,17 +20,18 @@ What is standard scaling in machine learning?
 
 Feature Scaling is a technique to standardize the independent features present in the data in a fixed range. It is performed during the data pre-processing to handle highly varying magnitudes or values or units.
 {from sklearn.preprocessing import StandardScaler}
+![Screenshot 2022-04-21 113345](https://user-images.githubusercontent.com/68773015/164390189-ed01897f-72a2-444a-8375-aedc1f3a8418.png)
 
 What is Mean Normalization?
 
 Mean Normalization is a way to implement Feature Scaling. What Mean normalization does is that it calculates and subtracts the mean for every feature. A common practice is also to divide this value by the range or the standard deviation.
-
+![mean normalization](https://user-images.githubusercontent.com/68773015/164389788-cf3d0324-6c72-45f6-b274-4d13e3677374.png)
 
 What is Maxabsscaler?
 
 Scale each feature by its maximum absolute value. This estimator scales and translates each feature individually such that the maximal absolute value of each feature in the training set will be 1.0. It does not shift/center the data and thus does not destroy any sparsity.
 {from sklearn.preprocessing import MaxAbsScaler}
-![mean normalization](https://user-images.githubusercontent.com/68773015/164389788-cf3d0324-6c72-45f6-b274-4d13e3677374.png)
+
 
 
 
